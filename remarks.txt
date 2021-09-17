@@ -1,0 +1,10 @@
+创建目录
+django-admin.py startproject learning_log .
+创建数据库|执行迁移--按需执行
+python manage.py migrate
+创建数据库迁移--按需执行
+python manage.py makemigrations test_server_project
+启动Django服务
+python manage.py runserver
+创建超级管理员
+python manage.py createsuperuser
